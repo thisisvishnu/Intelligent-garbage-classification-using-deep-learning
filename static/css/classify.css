@@ -1,0 +1,102 @@
+*{
+    background-image: none;
+}
+
+body{
+    background-image: url_for('static', filename='Css/project.css');
+    background-image: url('/Static/Images/Classify.jpg');
+    background-size: cover;
+}
+
+.web-title{
+    font-size: large;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.web-title h2{
+    margin-top: 8%;
+    color: navy;
+}
+.web-title p{
+    margin-top: 5%;
+    color: firebrick;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	height: 70px;
+	padding: 0 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+nav .logo {
+	font-size: 18px;
+	font-weight: inherit;
+	color: orangered;
+}
+
+nav ul.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+nav ul.menu li {
+	margin: 0 10px;
+}
+
+nav ul.menu li a {
+	text-decoration: none;
+	color: orangered;
+	font-size: 18px;
+	transition: all 0.3s ease;
+	padding: 10px 0;
+}
+
+nav ul.menu li a:hover {
+	border-bottom: 2px solid whitesmoke;
+}
+
+.form{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+	background-color: black;
+	/* Button text color */
+	color: orangered;
+	/* Button padding */
+	padding: 20px 30px;
+	/* Button border */
+	border: none;
+	/* Button border radius */
+	border-radius: 4px;
+	/* Button cursor style */
+	cursor: pointer;
+	font-size: medium;
+  }
+  
+  /* Styling when hovering over the button */
+  input[type="submit"]:hover {
+	background-color: royalblue;
+	color: black;
+  }
+  
+  /* Styling when button is active or clicked */
+  input[type="submit"]:active {
+	background-color: burlywood;
+  }
+  

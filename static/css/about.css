@@ -1,0 +1,79 @@
+*{
+    background-image: none;
+}
+
+body{
+    background-image: url_for('static', filename='Css/about.css');
+    background-image: url('/Static/Images/About.jpg');
+    background-size: cover;
+}
+
+.web-title{
+    font-size: large;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.web-title h2{
+    margin-top: 8%;
+    color: navy;
+}
+
+.web-title p{
+    color: black;
+	margin-top: 5%;
+	font-size: larger;
+	font-style: inherit;
+	text-align: center;
+	font-family: cursive;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	height: 70px;
+	padding: 0 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+nav .logo {
+	font-size: 18px;
+	font-weight: inherit;
+	color: orangered;
+}
+
+nav ul.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+nav ul.menu li {
+	margin: 0 10px;
+}
+
+nav ul.menu li a {
+	text-decoration: none;
+	color: orangered;
+	font-size: 18px;
+	transition: all 0.3s ease;
+	padding: 10px 0;
+}
+
+nav ul.menu li a:hover {
+	border-bottom: 2px solid whitesmoke;
+}
+
+.main{
+    font-family: cursive;
+    align-items: center;
+    text-align: center;
+}
