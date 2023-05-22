@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> About US </title>
+    <link rel="stylesheet" href="/Static/Css/about.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Css/about.css') }}">
+
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <div class="logo"> IBM Team ID : NM2023TMID11428</div>
+            <ul class="menu">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('classify') }}">Classify</a></li>
+                <li><a href="{{ url_for('team') }}">Team</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main"> 
+
+        <div class="web-title">
+            <h2> Intelligent Garbage Classification Using Deep Learning</h2>
+            <p> Intelligent garbage classification is a modern approach to waste management that uses artificial intelligence and machine learning to sort and separate different types of waste. It involves the use of advanced sensors, image recognition technology, and machine learning algorithms to accurately identify and sort various waste materials, including plastics, paper, glass, and metals.
+
+                At its core, intelligent garbage classification aims to improve the efficiency of waste management systems while reducing the environmental impact of waste disposal. By separating recyclable materials from non-recyclable ones, it helps to increase the amount of waste that can be recycled and reduce the amount of waste that ends up in landfills or incinerators.
+                
+                At our website, we are committed to promoting the use of intelligent garbage classification and educating the public about its benefits. Through our articles and resources, we aim to raise awareness about the importance of proper waste management and encourage the adoption of innovative solutions that can help create a cleaner, more sustainable future.</p>
+        </div>
+
+        
+    </main>
+
+    <footer></footer>
+</body>
+</html>
